@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="تك كير - خبراء صيانة الأجهزة الكهربائية والمنزلية. خدمة احترافية بضمان شامل.">
+    <title>خبراء الصيانة</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Changa:wght@300;400;500;600;700;800&family=Noto+Kufi+Arabic:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Decorative Elements -->
+    <div class="deco-dots"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <div class="logo-mark">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5">
+                        <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+                    </svg>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-name">صيانة</span>
+                    <span class="logo-sub">خبراء الصيانة</span>
+                </div>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link active">الرئيسية</a>
+                <a href="#about" class="nav-link">مين احنا</a>
+                <a href="#services" class="nav-link">خدماتنا</a>
+                <a href="#testimonials" class="nav-link">رأي العملاء</a>
+                <a href="#contact" class="nav-link">تواصل معانا</a>
+            </div>
+            <div class="nav-actions">
+                <a href="tel:01091903691" class="nav-phone">
+                    <span class="phone-ring"></span>
+                    <span class="nav-phone-text">الخط الساخن:</span>
+                    <span dir="ltr">01091903691</span>
+                </a>
+            </div>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="القائمة">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-text">
+                <div class="hero-overline">
+                    <div class="overline-bar"></div>
+                    صيانة منزلية احترافية
+                </div>
+                <h1 class="hero-title">
+                    هنرجعلك جهازك
+                    <br>
+                    <span class="title-highlight">جديد</span> زي الأول
+                </h1>
+                <p class="hero-desc">
+                    فريق فني متخصص لصيانة وإصلاح كل الأجهزة الكهربائية والمنزلية. بنجيلك لحد البيت في أسرع وقت وبأعلى
+                    جودة.
+                </p>
+                <div class="hero-cta-group">
+                    <a href="tel:01091903691" class="btn btn-fill">
+                        الخط الساخن
+                        <span class="btn-badge" dir="ltr">01091903691</span>
+                    </a>
+                    <a href="https://wa.me/201091903691" class="btn btn-whatsapp" target="_blank">
+                        كلمنا واتساب
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image-container" style="display:none;"> <!-- Hidden as image is now background -->
+        </div>
+        <div class="hero-ticker">
+            <div class="ticker-track">
+                <span>صيانة تكييفات</span>
+                <span>•</span>
+                <span>إصلاح تلاجات</span>
+                <span>•</span>
+                <span>صيانة غسالات</span>
+                <span>•</span>
+                <span>صيانة سخانات</span>
+                <span>•</span>
+                <span>إصلاح بوتاجازات</span>
+                <span>•</span>
+                <span>قطع غيار أصلية</span>
+                <span>•</span>
+                <span>ضمان معتمد</span>
+                <span>•</span>
+                <span>خدمة فورية</span>
+                <span>•</span>
+                <span>فنيين محترفين</span>
+                <span>•</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About / Stats Section -->
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-text">
+                <div class="section-label">
+                    <div class="label-dot"></div>
+                    مين احنا
+                </div>
+                <h2 class="about-title">أكتر من <span class="text-accent">١٢ سنة</span><br>خبرة في الصيانة</h2>
+                <p class="about-desc">
+                    عندنا فريق مهندسين وفنيين شاطرين جداً ومدربين على أعلى
+                    مستوى عشان يصلحوا جهازك صح ومن أول مرة، وبقطع غيار أصلية.
+                </p>
+                <div class="about-features">
+                    <div class="af-item">
+                        <div class="af-icon">✓</div>
+                        <span>فنيين معتمدين</span>
+                    </div>
+                    <div class="af-item">
+                        <div class="af-icon">✓</div>
+                        <span>ضمان شامل</span>
+                    </div>
+                    <div class="af-item">
+                        <div class="af-icon">✓</div>
+                        <span>سرعة في الأداء</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-img-box">
+                <div class="aib-inner">
+                    <img src="images/all-devices.jfif" alt="جميع خدمات الصيانة">
+                    <div class="aib-overlay"></div>
+                </div>
+            </div>
+            <div class="stats-bar">
+                <div class="stat-item">
+                    <span class="stat-num" data-count="15000">0</span>
+                    <span class="stat-label">جهاز اتصلح</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num" data-count="50">0</span>
+                    <span class="stat-label">فني متخصص</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num" data-count="98">0</span>
+                    <span class="stat-label">% عملاء مبسوطين</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num" data-count="24">0</span>
+                    <span class="stat-label">ساعة خدمة</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brands Ticker -->
+    <div class="brands-section">
+        <div class="brands-ticker-wrapper">
+            <div class="brands-track">
+                <span class="brand-item">سامسونج</span>
+                <span class="brand-sep">•</span>
+                <span class="brand-item">إل جي</span>
+                <span class="brand-sep">•</span>
+                <span class="brand-item">توشيبا</span>
+                <span class="brand-sep">•</span>
+                <span class="brand-item">شارب</span>
+                <span class="brand-sep">•</span>
+                <span class="brand-item">يونيون إير</span>
+                <span class="brand-sep">•</span>
+                <span class="brand-item">كاريير</span>
+                <span class="brand-sep">•</span>
+                <span class="brand-item">بيكو</span>
+                <span class="brand-sep">•</span>
+                <span class="brand-item">زانوسي</span>
+                <span class="brand-sep">•</span>
+                <span class="brand-item">تورنيدو</span>
+                <span class="brand-sep">•</span>
+                <span class="brand-item">فريش</span>
+                <span class="brand-sep">•</span>
+                <span class="brand-item">كريازي</span>
+                <span class="brand-sep">•</span>
+                <span class="brand-item">أريستون</span>
+                <span class="brand-sep">•</span>
+                <span class="brand-item">إنديست</span>
+                <span class="brand-sep">•</span>
+                <!-- Duplicated for scrolling -->
+                <span class="brand-item">سامسونج</span>
+                <span class="brand-sep">•</span>
+                <span class="brand-item">إل جي</span>
+                <span class="brand-sep">•</span>
+                <span class="brand-item">توشيبا</span>
+                <span class="brand-sep">•</span>
+                <span class="brand-item">شارب</span>
+                <span class="brand-sep">•</span>
+                <span class="brand-item">يونيون إير</span>
+                <span class="brand-sep">•</span>
+                <span class="brand-item">كاريير</span>
+                <span class="brand-sep">•</span>
+                <span class="brand-item">بيكو</span>
+                <span class="brand-sep">•</span>
+                <span class="brand-item">زانوسي</span>
+                <span class="brand-sep">•</span>
+                <span class="brand-item">تورنيدو</span>
+                <span class="brand-sep">•</span>
+                <span class="brand-item">فريش</span>
+                <span class="brand-sep">•</span>
+                <span class="brand-item">كريازي</span>
+                <span class="brand-sep">•</span>
+                <span class="brand-item">أريستون</span>
+                <span class="brand-sep">•</span>
+                <span class="brand-item">إنديست</span>
+                <span class="brand-sep">•</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="services-container">
+            <div class="section-label center">
+                <div class="label-dot"></div>
+                خدماتنا
+            </div>
+            <h2 class="services-title">صيانة <span class="text-accent">شاملة</span></h2>
+            <p class="services-subtitle">بنقدم حلول متكاملة لصيانة كل أجهزتك المنزلية والكهربائية</p>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="sc-image">
+                        <img src="images/ac-repair.jfif" alt="صيانة تكييفات">
+                        <div class="sc-icon-overlay">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="6" width="20" height="8" rx="1" />
+                                <path d="M18 10H6" />
+                                <path d="M5 16v3" />
+                                <path d="M19 16v3" />
+                                <path d="M10 14h4" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="sc-content">
+                        <h3>صيانة التكييفات</h3>
+                        <p>تركيب وصيانة وإصلاح كل أنواع التكييفات (سبليت، شباك، مركزي) لأي ماركة.</p>
+                        <a href="#contact" class="sc-link">اطلب خدمة &larr;</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="sc-image">
+                        <img src="images/fridge-repair.jfif" alt="صيانة تلاجات">
+                        <div class="sc-icon-overlay">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="5" y="2" width="14" height="20" rx="2" />
+                                <path d="M5 9h14" />
+                                <path d="M9 5v2" />
+                                <path d="M9 12v5" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="sc-content">
+                        <h3>صيانة التلاجات</h3>
+                        <p>أي عطل في التلاجة أو الديب فريزر هنحله بقطع غيار أصلية وضمان.</p>
+                        <a href="#contact" class="sc-link">اطلب خدمة &larr;</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="sc-image">
+                        <img src="images/washer-repair.jfif" alt="صيانة غسالات">
+                        <div class="sc-icon-overlay">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="4" y="2" width="16" height="20" rx="2" />
+                                <circle cx="12" cy="13" r="5" />
+                                <path d="M8 6h1.5" />
+                                <path d="M11 6h1.5" />
+                                <path d="M14 6h2" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="sc-content">
+                        <h3>صيانة الغسالات</h3>
+                        <p>صيانة الغسالات الأوتوماتيك والنص أوتوماتيك والمجففات بكل أنواعها.</p>
+                        <a href="#contact" class="sc-link">اطلب خدمة &larr;</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="sc-image">
+                        <img src="images/heater-repair.jfif" alt="صيانة سخانات">
+                        <div class="sc-icon-overlay">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="7" y="2" width="10" height="16" rx="4" />
+                                <path d="M12 22v-4" />
+                                <path d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
+                                <path d="M8 22h8" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="sc-content">
+                        <h3>صيانة السخانات</h3>
+                        <p>تصليح وتركيب السخانات الغاز والكهرباء عشان مياهك تفضل سخنة.</p>
+                        <a href="#contact" class="sc-link">اطلب خدمة &larr;</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="sc-image">
+                        <img src="images/stove-repair.jfif" alt="صيانة بوتاجازات">
+                        <div class="sc-icon-overlay">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="4" y="4" width="16" height="18" rx="2" />
+                                <path d="M4 11h16" />
+                                <path d="M8 15h8" />
+                                <circle cx="8" cy="8" r="1" />
+                                <circle cx="12" cy="8" r="1" />
+                                <circle cx="16" cy="8" r="1" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="sc-content">
+                        <h3>صيانة بوتاجازات</h3>
+                        <p>صيانة الأفران والبوتاجازات وتغيير الفواني وضبط الغاز بأمان تام.</p>
+                        <a href="#contact" class="sc-link">اطلب خدمة &larr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-us">
+        <div class="why-container">
+            <div class="why-header">
+                <div class="section-label">
+                    <div class="label-dot"></div>
+                    ليه تختارنا
+                </div>
+                <h2>أسباب تخليك <span class="text-accent">تثق فينا</span></h2>
+            </div>
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-icon-box">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                            <circle cx="12" cy="7" r="4" />
+                        </svg>
+                    </div>
+                    <h4>فنيين محترفين</h4>
+                    <p>فريقنا كله مهندسين وفنيين مدربين كويس جداً وعلى أعلى مستوى.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon-box">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="3" />
+                            <path
+                                d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z" />
+                        </svg>
+                    </div>
+                    <h4>قطع غيار أصلية</h4>
+                    <p>بنستخدم قطع غيار أصلية عشان نضمنلك العمر الطويل لجهازك.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon-box">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                            <path d="m9 12 2 2 4-4" />
+                        </svg>
+                    </div>
+                    <h4>ضمان حقيقي</h4>
+                    <p>ضمان بجد على الصيانة وقطع الغيار، مش مجرد كلام.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon-box">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10" />
+                                <polyline points="12 6 12 12 16 14" />
+                            </svg>
+                    </div>
+                    <h4>سرعة في الإنجاز</h4>
+                    <p>هنجيلك في أسرع وقت ونخلص الشغل بسرعة عشان وقتك يهمنا.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon-box">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                                <polyline points="9 22 9 12 15 12 15 22" />
+                            </svg>
+                    </div>
+                    <h4>خدمة في البيت</h4>
+                    <p>هنصلح جهازك عندك في البيت من غير تكاليف نقل وبهدلة.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon-box">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="12" y1="1" x2="12" y2="23" />
+                                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+                            </svg>
+                    </div>
+                    <h4>أسعار مظبوطة</h4>
+                    <p>أسعارنا مناسبة جداً ومفيش أي مصاريف مخفية.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="testimonials-container">
+            <div class="section-label center">
+                <div class="label-dot"></div>
+                آراء العملاء
+            </div>
+            <h2 class="testimonials-title">ماذا يقول <span class="text-accent">عملاؤنا</span></h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"خدمة ممتازة وسريعة. الفني جه في نفس اليوم وصلح التكييف في أقل من
+                        ساعة. شكراً!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">أ</div>
+                        <div>
+                            <strong>أحمد محمد</strong>
+                            <span>القاهرة</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"أفضل مركز صيانة تعاملت معه. الأسعار عادلة والشغل نظيف جداً. الغسالة
+                        رجعت زي الجديدة!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">س</div>
+                        <div>
+                            <strong>سارة أحمد</strong>
+                            <span>الجيزة</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"تعاملت معاهم أكثر من مرة وفي كل مرة الخدمة ممتازة. الضمان حقيقي مش كلام
+                        وخلاص!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">م</div>
+                        <div>
+                            <strong>محمود علي</strong>
+                            <span>الإسكندرية</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <div class="cta-inner">
+            <div class="cta-text">
+                <h2>جهازك محتاج صيانة؟</h2>
+                <p>اتصل بنا الآن واحصل على خدمة صيانة فورية مع ضمان شامل</p>
+            </div>
+            <a href="tel:01091903691" class="cta-phone-btn">
+                <div class="phone-btn-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="phone-btn-text">
+                    <span>الخط الساخن</span>
+                    <strong>01091903691</strong>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-left">
+                <div class="section-label">
+                    <div class="label-dot"></div>
+                    تواصل معنا
+                </div>
+                <h2>نحن في <span class="text-accent">خدمتك</span><br>دائماً</h2>
+                <p class="contact-desc">لا تتردد في التواصل معنا في أي وقت. فريقنا متاح لمساعدتك على مدار الساعة.</p>
+
+                <div class="contact-methods">
+                    <a href="tel:01091903691" class="method-card">
+                        <div class="method-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div>
+                            <span class="method-label">الخط الساخن</span>
+                            <span class="method-value">01091903691</span>
+                        </div>
+                    </a>
+                    <a href="https://wa.me/201091903691" class="method-card" target="_blank">
+                        <div class="method-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z" />
+                            </svg>
+                        </div>
+                        <div>
+                            <span class="method-label">واتساب</span>
+                            <span class="method-value">01091903691</span>
+                        </div>
+                    </a>
+                    <div class="method-card">
+                        <div class="method-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                        </div>
+                        <div>
+                            <span class="method-label">مواعيد العمل</span>
+                            <span class="method-value">يومياً 8ص - 10م</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form class="contact-form" id="contactForm">
+                    <h3>اطلب خدمة صيانة</h3>
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="name">الاسم</label>
+                            <input type="text" id="name" placeholder="أدخل اسمك" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="phone">رقم الهاتف</label>
+                            <input type="tel" id="phone" placeholder="أدخل رقم هاتفك" required>
+                        </div>
+                    </div>
+                    <div class="form-field">
+                        <label for="device">نوع الجهاز</label>
+                        <select id="device" required>
+                            <option value="">اختر نوع الجهاز</option>
+                            <option value="تكييف">تكييف</option>
+                            <option value="ثلاجة">ثلاجة</option>
+                            <option value="غسالة">غسالة</option>
+
+                            <option value="سخان">سخان</option>
+                            <option value="بوتاجاز">بوتاجاز / فرن</option>
+                            <option value="أخرى">أخرى</option>
+                        </select>
+                    </div>
+                    <div class="form-field">
+                        <label for="message">وصف المشكلة</label>
+                        <textarea id="message" rows="4" placeholder="اشرح المشكلة بالتفصيل..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-fill btn-block">
+                        إرسال طلب الصيانة
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M5 12h14M12 5l-7 7 7 7" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <div class="logo-mark">
+                            <span class="logo-letter">ت</span>
+                            <span class="logo-dot"></span>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-name">صيانة</span>
+                            <span class="logo-sub">خبراء الصيانة</span>
+                        </div>
+                    </div>
+                    <p>نقدم خدمات صيانة احترافية لجميع الأجهزة الكهربائية والمنزلية بجودة عالية وضمان شامل.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>روابط سريعة</h4>
+                    <a href="#home">الرئيسية</a>
+                    <a href="#about">من نحن</a>
+                    <a href="#services">الخدمات</a>
+                    <a href="#contact">اتصل بنا</a>
+                </div>
+                <div class="footer-col">
+                    <h4>خدماتنا</h4>
+                    <a href="#services">صيانة تكييفات</a>
+                    <a href="#services">صيانة ثلاجات</a>
+                    <a href="#services">صيانة غسالات</a>
+
+                </div>
+                <div class="footer-col">
+                    <h4>تواصل معنا</h4>
+                    <a href="tel:01091903691">📞 01091903691</a>
+                    <a href="https://wa.me/201091903691">💬 واتساب</a>
+                    <p>🕐 يومياً 8ص - 10م</p>
+                </div>
+            </div>
+            <div class="footer-disclaimer">
+                <p><strong>⚠️ إخلاء مسؤولية هام</strong>نحن مركز صيانة مستقل نقدم خدمات صيانة وإصلاح الأجهزة المنزلية.
+                    لا ندعي تبعيتنا أو اعتمادنا من أي شركة أو علامة تجارية ما لم يذكر ذلك صراحة.<br>جميع الأسماء
+                    والعلامات التجارية المذكورة هي ملك لأصحابها، ويتم استخدامها فقط لغرض توضيح نوع الخدمة المقدمة.</p>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 صيانة جميع الحقوق محفوظة</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/201091903691" class="wa-float" target="_blank" aria-label="واتساب">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="#ffffff" stroke="none">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z" />
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
